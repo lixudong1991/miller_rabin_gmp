@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-      QApplication a(argc, argv);
+      QApplication a(argc, argv);   
    /*   mpz_t aa, b, c, d;
       mpz_init(aa);
       mpz_init(b);
@@ -47,6 +47,7 @@ int main(int argc, char *argv[])
       mpz_clear(b);
       mpz_clear(c);
       mpz_clear(d);*/
+
     Widget w;
     w.show();
     return a.exec();

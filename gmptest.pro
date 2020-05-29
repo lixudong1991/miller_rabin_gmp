@@ -29,7 +29,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 
 INCLUDEPATH += $$PWD/include
-LIBS += -L$$PWD/libs -llibgmp-10
+LIBS += -L$$PWD/libs -llibgmp-10 \
+        -L$$PWD/libs -lmirsea
 
 CONFIG += debug_and_release
 CONFIG(debug, debug|release){
